@@ -17,17 +17,17 @@ export default function DrawerLayout() {
         }}
       />
       <Drawer.Screen
-        name="profile"
+        name="explore"
         options={{
-          title: 'Perfil',
-          drawerLabel: 'Perfil',
+          title: 'Detalles',
+          drawerLabel: 'Detalles',
         }}
       />
       <Drawer.Screen
-        name="settings"
+        name="admin"
         options={{
-          title: 'Configuración',
-          drawerLabel: 'Configuración',
+          title: 'Admin',
+          drawerLabel: 'Admin',
         }}
       />
     </Drawer>
